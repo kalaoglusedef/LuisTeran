@@ -1,0 +1,24 @@
+nav {
+    > .navbar {
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 198px;
+        justify-content: space-between;
+        width: 1524px;
+        > .rightList {
+            display: flex;
+            flex-direction: row;
+            > .list {
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                > li {
+                    margin-right: 32px;
+                }
+            }
+        }
+    }
+}

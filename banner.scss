@@ -1,0 +1,62 @@
+.banner {
+    padding: 0px 198px;
+    position: relative;
+    display: flex;
+    > .container {
+        display: flex;
+        flex-direction: column;
+        > .textGroup_first {
+            width: 775px;
+            height: 282px;
+            margin-top: 259px;
+            > h1 {
+                font-size: 75px;
+                line-height: 99px;
+                display: flex;
+                align-items: center;
+                color: #000000;
+                margin: 0px;
+            }
+        }
+        > .textGroup_second {
+            width: 775px;
+            height: 145px;
+            background-color: white;
+            display: flex;
+            align-items: flex-end;
+            flex-direction: row;
+            > p {
+                font-size: 35px;
+                line-height: 41px;
+                color: #000000;
+                margin-left: 20px;
+                margin-right: 14px;
+            }
+            > div {
+                display: flex;
+                align-items: center;
+                > img {
+                    margin-right: 14px;
+                }
+            }
+        }
+    }
+    > .portre {
+        position: absolute;
+
+        &.first {
+            left: 715px;
+            top: 193px;
+            z-index: -1;
+            width: 566px;
+            height: 629px;
+        }
+
+        &.second {
+            width: 461px;
+            height: 448px;
+            top: 284px;
+            left: 1261px;
+        }
+    }
+}

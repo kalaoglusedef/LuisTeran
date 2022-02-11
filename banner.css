@@ -1,0 +1,93 @@
+.banner {
+  padding: 0px 198px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.banner > .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner > .container > .textGroup_first {
+  width: 775px;
+  height: 282px;
+  margin-top: 259px;
+}
+
+.banner > .container > .textGroup_first > h1 {
+  font-size: 75px;
+  line-height: 99px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  margin: 0px;
+}
+
+.banner > .container > .textGroup_second {
+  width: 775px;
+  height: 145px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.banner > .container > .textGroup_second > p {
+  font-size: 35px;
+  line-height: 41px;
+  color: #000000;
+  margin-left: 20px;
+  margin-right: 14px;
+}
+
+.banner > .container > .textGroup_second > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner > .container > .textGroup_second > div > img {
+  margin-right: 14px;
+}
+
+.banner > .portre {
+  position: absolute;
+}
+
+.banner > .portre.first {
+  left: 715px;
+  top: 193px;
+  z-index: -1;
+  width: 566px;
+  height: 629px;
+}
+
+.banner > .portre.second {
+  width: 461px;
+  height: 448px;
+  top: 284px;
+  left: 1261px;
+}
+/*# sourceMappingURL=banner.css.map */
